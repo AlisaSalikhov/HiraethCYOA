@@ -1,0 +1,28 @@
+/* Styling for the parent container */
+#canvas-container {
+  position: relative;
+}
+
+/* Styling for the p5.js canvas */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Styling for the text element */
+#text-element {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  z-index: 2;
+  font-size: 15px;
+  color: saddlebrown;
+}
+
+/* Define the font-family for the text element */
+.custom-text-style {
+  font-family: 'PressStart2P-Regular', sans-serif;
+  line-height: 1.2;
+}
